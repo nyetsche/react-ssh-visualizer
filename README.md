@@ -1,9 +1,5 @@
 # React + Vite
 
-Mostly built by Claude Artifacts, not my own code
-Also used https://github.com/Bklieger/Claude-React-Jumpstart/tree/main
-as a starting point
-
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

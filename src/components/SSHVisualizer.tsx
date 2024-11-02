@@ -84,7 +84,7 @@ const SSHVisualizer = () => {
           </div>
 
           <Tabs defaultValue="setup">
-            <TabsList className="grid w-full grid-cols-2">
+            <TabsList className="grid w-full grid-cols-2" style={{ display: 'flex', justifyContent: 'center' }}>
               <TabsTrigger value="setup">Setup</TabsTrigger>
               <TabsTrigger value="usage">Usage</TabsTrigger>
             </TabsList>
@@ -99,7 +99,7 @@ const SSHVisualizer = () => {
               {method === 'forward' ? (
                 <div className="flex items-center justify-between mt-8 px-4">
                   <div className="flex flex-col items-center space-y-2">
-                    <MonitorSmartphone className="w-12 h-12 text-blue-500" />
+                    <MonitorSmartphone className="w-24 h-24 text-blue-500" />
                     <div className="text-sm font-medium">Local Machine</div>
                     <div className="text-xs text-gray-500">:{localPort}</div>
                   </div>
